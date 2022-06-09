@@ -1,0 +1,92 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+
+
+}
+
+header {
+
+
+    background-color: red;
+    display: flex;
+    height: 150px;
+    justify-content:space-between;
+    
+
+
+    
+}
+ ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+   
+    
+    
+
+ }
+
+.card {
+
+    background-color: darkgrey;
+    width: 400px;
+    text-align: center;
+    border-radius: 5%;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 40px;
+    width: 200px;
+    display: inline-block;
+
+
+}
+
+.card .card-banner {
+
+    width: 80px;
+    height: 80px;
+    margin: -40px auto 12px;
+    display: block;
+    border-radius: 80px;
+    object-fit: cover;
+
+}
+
+.card .card-1 {
+
+    width: 100%;
+
+}
+
+.card .favorito {
+
+    width: 20px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+
+}
+
+button {
+
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-color: rgb(212, 202, 202);
+    color: black;
+    border-radius: 10px;
+}
+
+body {
+
+    background-color: black;
+}
+
